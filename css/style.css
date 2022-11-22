@@ -55,3 +55,25 @@ body {
 .flex {
     display: flex;
 }
+
+/* rate card */
+
+.rates {
+    gap: 1rem;
+}
+
+.rate-card.container {
+    max-width: 500px;
+}
+
+.rate-card {
+    border-radius: 1rem;
+    background-color: var(--clr-neutral-ltr);
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary);
+}
+
+/* testimonial card */
