@@ -77,3 +77,38 @@ body {
 }
 
 /* testimonial card */
+
+.testimonial {
+    gap: 1rem;
+}
+
+.testimonial-card.container {
+    max-width: 500px;
+}
+
+.testimonial-card {
+    background-color: var(--clr-primary);
+    border-radius: 1rem;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--clr-neutral-ltr);
+}
+
+.testimonial-card > .header {
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.user-data .name {
+    font-weight: var(--fw-bold);
+}
+
+.user-data .status {
+    color: var(--clr-accent);
+}
